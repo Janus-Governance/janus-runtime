@@ -15,10 +15,66 @@
       </header>
 
       <section aria-label="Runtime Content">
-        <h2>Reference implementation</h2>
-        <h2>Apps Script runtime</h2>
-        <h2>Execution model</h2>
-        <h2 id="examples">Developer examples</h2>
+        <h2>Runtime Purpose</h2>
+        <p>
+          Janus defines a governance core; runtimes execute governance evaluation in concrete
+          environments while respecting Core invariants.
+        </p>
+
+        <h2>Reference Implementation</h2>
+        <p>
+          The current Node demo runtime is a minimal proof of governance evaluation, omission
+          detection, the evidence model (E+ / E−), the audit writer boundary, and deterministic
+          rebuild.
+        </p>
+        <ul aria-label="Reference runtime links">
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/blob/main/runtime/demo-node/README.md"
+              >Read full document → runtime/demo-node/README.md (GitHub rendered)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/tree/main/runtime/demo-node"
+              >Browse folder → runtime/demo-node/ (GitHub)</a
+            >
+          </li>
+        </ul>
+
+        <h2>Current State</h2>
+        <p>
+          This runtime is a reference proof of the Janus Core Lite model, not a production
+          runtime. It demonstrates append-only logs and audit-ready governance events.
+        </p>
+
+        <h2 id="examples">Links</h2>
+        <ul aria-label="Runtime file links">
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/blob/main/runtime/demo-node/demo.js"
+              >Read full document → runtime/demo-node/demo.js (GitHub rendered)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/blob/main/runtime/demo-node/src/evaluateGovernance.js"
+              >Read full document → runtime/demo-node/src/evaluateGovernance.js (GitHub rendered)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/blob/main/runtime/demo-node/src/auditWriter.js"
+              >Read full document → runtime/demo-node/src/auditWriter.js (GitHub rendered)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Janus-Governance/janus-governance-core/blob/main/docs/runtime-model.md"
+              >Read full document → docs/runtime-model.md (GitHub rendered)</a
+            >
+          </li>
+        </ul>
       </section>
     </main>
   </body>

@@ -55,6 +55,11 @@ h2 {
   color: #fff;
 }
 
+p {
+  margin: 0;
+  color: #cfcfcf;
+}
+
 ul {
   margin: 0;
   padding-left: 18px;
