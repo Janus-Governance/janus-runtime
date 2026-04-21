@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://runtime.janusgovernance.org/sitemap.xml
